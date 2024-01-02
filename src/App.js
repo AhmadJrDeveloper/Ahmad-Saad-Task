@@ -1,6 +1,6 @@
 import Home from "./pages/Home";
 import ContentPages from "./pages/ContentPages";
-import { Routes, Route, Outlet, BrowserRouter as Router } from 'react-router-dom';
+import { Routes, Route, BrowserRouter as Router } from 'react-router-dom';
 function App() {
   return (
     <Router>

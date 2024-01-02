@@ -36,7 +36,7 @@ function RecipeElements({ imageUrl, title, subtitle }) {
             <button
               className="Recipe-Description-Button"
               onClick={handleAllArticlesClick}
-              style={{ color: selectedLink === "articles" ? "#D5DD5A" : "" }}
+              style={{ color: selectedLink === "recipes" ? "#D5DD5A" : "" }}
             >
               Try
             </button>

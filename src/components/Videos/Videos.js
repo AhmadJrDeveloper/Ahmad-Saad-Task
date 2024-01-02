@@ -1,4 +1,5 @@
 import React from "react";
+import VideoItem from "../VideoItems/VideosItem";
 import "./Videos.css";
 
 const videoData = [
@@ -20,18 +21,7 @@ function Videos() {
   return (
     <div className="Videos-Container">
       {videoData.map((video, index) => (
-        <div key={index}>
-          <p className="Videos-Header">{video.title}</p>
-          <div className="Videos-Links">
-            <iframe
-              src={video.src}
-              title={`YouTube video player - ${video.title}`}
-              frameBorder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-              allowFullScreen
-            ></iframe>
-          </div>
-        </div>
+        <VideoItem key={index} title={video.title} src={video.src} />
       ))}
     </div>
   );

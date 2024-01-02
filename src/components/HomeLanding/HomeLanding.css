@@ -44,7 +44,6 @@
     border: 1px solid;
     border-radius: 20px;
     margin-left: 10px;
-    font-family: "Your Font Family", sans-serif; 
 }
 
 
@@ -62,6 +61,43 @@
     z-index: 1 !important;
 
 }
+
+.HomeLanding-Main2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Titillium Web', sans-serif;
+    background: transparent;
+
+}
+
+.HomeLanding-Titles2{
+    font-size: 100px;
+    font-weight: bold;
+    height: 100px;  
+}
+
+.HomeLanding-Image2 {
+    background: transparent;
+    width: 40%;
+    height: 30%;
+    z-index: 1;
+    margin-top: 70px;
+    
+}
+
+.HomeLanding-Button{
+    font-size: 20px;
+    width: 120px;
+    height: 40px;
+    background: none;
+    border: 1px solid;
+    border-radius: 20px;
+    margin-left: 10px;
+}
+
+
 
 @media only screen and (max-width: 1024px) {
     .HomeLanding-Title::after {
@@ -109,4 +145,29 @@
     .HomeLanding-Titles {
         padding-left:0 ;        
   }
+  .HomeLanding-Main2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Titillium Web', sans-serif;
+    background: transparent;
+    margin-bottom: 20px;
+
+}
+
+  .HomeLanding-Titles2{
+    font-size: 30px;
+    font-weight: bold;
+    height: 0;  
+}
+
+.HomeLanding-Image2 {
+    background: transparent;
+    width: 35%;
+    height: 25%;
+    z-index: 1;
+    margin-top: 70px;
+    
+}
 }

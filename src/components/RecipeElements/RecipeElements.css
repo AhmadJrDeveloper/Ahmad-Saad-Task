@@ -63,7 +63,7 @@
     height: 30px;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1024px) {
     .Recipe-Main {
         font-family: 'Titillium Web', sans-serif;
         display: flex;

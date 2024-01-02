@@ -7,7 +7,7 @@
 .HomeLanding-Slide {
   height: 250px; 
 
-  @media (min-width: 768px) {
+  @media (min-width: 1024px) {
     height: 817px; 
   }
 }

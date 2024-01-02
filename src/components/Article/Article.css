@@ -12,10 +12,24 @@
     height: auto; 
 }
 
+.ImageWithArticle{
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+}
+
 .Article-Image {
+    width: 900px;
+    height: 500px;
+}
+
+.Article-Image-Title {
+    position: absolute;
     background: transparent;
-    width: 60%;
-    height: 500px; 
+    color: white;
+    font-size: 50px;
+    font-weight: bold;
+    margin-left: 10px;
 }
 
 .Article-Header {
@@ -42,17 +56,7 @@
     font-style: italic;
 }
 
-.Article-Image-Title {
-    position: absolute;
-    background: transparent;
-    color: white;
-    font-size: 60px; 
-    padding-top: 10%; 
-    padding-left: 10px; 
-    font-weight: bold;
-}
-
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1024px) {
     .Article-Main { 
         flex-wrap: wrap;
     }
@@ -62,19 +66,24 @@
         padding-top: 10%;
         padding-left: 5px;
     }
-    .Article-Image {
-        background: transparent;
-        width: 100%;
-        height: 250px; 
+    .ImageWithArticle{
+        position: relative;
+        display: flex;
+        align-items: flex-end;
     }
+    
+    .Article-Image {
+        width: 100%;
+        height: 300px;
+    }
+    
     .Article-Image-Title {
         position: absolute;
         background: transparent;
         color: white;
-        font-size: 20px; 
-        padding-bottom: 120%; 
-        padding-left: 10px; 
+        font-size: 20px;
         font-weight: bold;
+        margin-left: 10px;
     }
 
     .All-Articles-Button {

@@ -61,12 +61,14 @@ function Article() {
       <div className="Article-Container">
         <h2 className="Article-Header">TOP ARTICLES</h2>
         <article className="Article-Main">
+          <div className="ImageWithArticle">
           <img className="Article-Image" src={Hiking} alt="" />
           <p className="Article-Image-Title">
             Lifestyle <br />
             10 Benefits of Hiking: <br />
             Exercise in the Great Outdoors
           </p>
+          </div>
           <div className="All-Articles">
             {articles.map((article, index) => (
               <ArticleElement

@@ -1,0 +1,18 @@
+
+  .swiper-button-next,
+  .swiper-button-prev {
+    display: none !important;
+  }
+
+.HomeLanding-Slide {
+  height: 250px; 
+
+  @media (min-width: 768px) {
+    height: 817px; 
+  }
+}
+
+.swiper-container {
+  height: 100vh; 
+  overflow: hidden; 
+}

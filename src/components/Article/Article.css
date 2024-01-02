@@ -1,0 +1,90 @@
+.Article-Container {
+    padding: 0 1rem;
+}
+
+.Article-Main {
+    padding: 0;
+    margin: 0;
+    font-family: 'Titillium Web', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: auto; 
+}
+
+.Article-Image {
+    background: transparent;
+    width: 60%;
+    height: 500px; 
+}
+
+.Article-Header {
+    padding-left: 5px;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: bold;
+    border-left: 3px solid #D5DD5A;
+}
+
+.All-Articles {
+    margin-left: 30px;
+    height: auto; 
+}
+
+.All-Articles-Button {
+    justify-content: center;
+    align-items: center;
+    background-color: #D5DD5A;
+    border: none;
+    width: 64%; 
+    height: 50px;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 20px; 
+    font-style: italic;
+}
+
+.Article-Image-Title {
+    position: absolute;
+    background: transparent;
+    color: white;
+    font-size: 60px; 
+    padding-top: 10%; 
+    padding-left: 10px; 
+    font-weight: bold;
+}
+
+@media screen and (max-width: 768px) {
+    .Article-Main { 
+        flex-wrap: wrap;
+    }
+
+    .Article-Image-Title {
+        font-size: 20px;
+        padding-top: 10%;
+        padding-left: 5px;
+    }
+    .Article-Image {
+        background: transparent;
+        width: 100%;
+        height: 250px; 
+    }
+    .Article-Image-Title {
+        position: absolute;
+        background: transparent;
+        color: white;
+        font-size: 20px; 
+        padding-bottom: 120%; 
+        padding-left: 10px; 
+        font-weight: bold;
+    }
+
+    .All-Articles-Button {
+        
+        width: 100%; 
+        height: 50px;
+        font-size: 20px; 
+    }
+    .All-Articles {
+        margin-left: 0;
+        height: auto; 
+    }
+}

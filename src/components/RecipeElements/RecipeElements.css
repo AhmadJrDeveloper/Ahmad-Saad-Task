@@ -1,0 +1,133 @@
+.Recipe-Main {
+    font-family: 'Titillium Web', sans-serif;
+    display: flex;
+    flex-direction: row;
+    height: 500px;
+    
+}
+
+.Recipe-Image {
+    width: 350px;
+    height: 490px;
+    border-radius: 8px;
+}
+
+.Recipe-Description {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Recipe-Description-Header,
+.Recipe-Description-SubHeader {
+    background-color: white;
+}
+
+.Recipe-Card {
+    display: flex;
+    border-radius: 6px;
+    width: 17%;
+    align-items: flex-start;
+    background-color: white;
+    position: absolute;
+    z-index: 1;
+    flex-direction: column;
+}
+
+.Recipe-Description-Button {
+    background-color: #D5DD5A;
+    border: none;
+    width: 50px;
+    height: 30px;
+    border-radius: 3px;
+    align-self: self-end;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.Recipe-Description-Header {
+    margin-top: 10px;
+    font-size: 25px;
+    height: 30px;
+    margin-left: 13px;
+    height: 10px;
+}
+
+.Recipe-Description-SubHeader {
+    padding-top: 10px;
+    font-size: larger;
+    height: 30px;
+    margin-left: 13px;
+    height: 30px;
+}
+
+@media screen and (max-width: 768px) {
+    .Recipe-Main {
+        font-family: 'Titillium Web', sans-serif;
+        display: flex;
+        flex-direction: column;
+        height: 400px;
+        align-items: center;    
+    }
+    
+    .Recipe-Image {
+        width: 360px;
+        height: 350px;
+        border-radius: 8px;
+    }
+    
+    .Recipe-Description {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+    }
+    
+    .Recipe-Description-Header,
+    .Recipe-Description-SubHeader {
+        background-color: white;
+    }
+    
+    .Recipe-Card {
+        display: flex;
+        border-radius: 6px;
+        width: 70%;
+    justify-content: center;
+        align-items: flex-start;
+        background-color: white;
+        position: absolute;
+        z-index: 1;
+        flex-direction: column;
+        margin-top: 165px;
+    }
+    
+    .Recipe-Description-Button {
+        background-color: #D5DD5A;
+        border: none;
+        width: 150px;
+        height: 30px;
+        border-radius: 3px;
+        align-self: self-start;
+        margin-bottom: 10px;
+        font-weight: bold;
+        margin-left: 10px;
+    }
+    
+    .Recipe-Description-Header {
+        margin-top: 10px;
+        font-size: 17px;
+        height: 30px;
+        margin-left: 13px;
+        height: 10px;
+    }
+    
+    .Recipe-Description-SubHeader {
+        padding-top: 10px;
+        font-size: larger;
+        height: 30px;
+        margin-left: 13px;
+        height: 30px;
+    }
+}

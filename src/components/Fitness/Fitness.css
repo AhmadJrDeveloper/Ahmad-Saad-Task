@@ -1,0 +1,23 @@
+.Fitness-Container{
+    padding: 0 1rem;
+}
+
+.Fitness-Header{
+    padding-left: 5px;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: bold;
+    border-left: 3px solid #D5DD5A;
+}
+
+.Fitness-Flex{
+    display: flex;
+}
+
+@media screen and (max-width: 768px) {
+    
+    .Fitness-Flex{
+        flex-direction: column;
+
+    }
+}
+

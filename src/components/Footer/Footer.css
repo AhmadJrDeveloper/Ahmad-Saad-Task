@@ -1,0 +1,33 @@
+
+.Footer-Container{
+    background-color: #302F25;
+    
+}
+.Footer-Elements{
+    background: transparent;
+    display: flex;  
+    justify-content: space-between;
+    width: 30%;
+    margin-left: 140px;
+
+
+}
+
+.Footer-Words{
+    background: transparent;
+    color: white;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 768px) {
+    .Footer-Elements{
+        background: transparent;
+        display: flex;  
+        justify-content: space-between;
+        width: 80%;
+        margin-left: 10px;
+    
+    }
+    
+}

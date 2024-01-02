@@ -1,0 +1,82 @@
+.Fitness-Image{
+    width: 460px;
+}
+
+.ImageWithPlay{
+    
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 35px;
+
+}
+
+.Play-Image{
+    position: absolute;
+    background: transparent;
+}
+
+.Fitness-Title{
+    margin-top: 0;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+    height: 15px;
+}
+
+.Fitness-Description{
+    margin-top: 15px;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: bold;
+    font-size: 23px;
+    width: 100%;
+    white-space: pre-line;
+    
+}
+.Fitness-Card{
+    width: 30%;
+}
+
+@media screen and (max-width: 768px) {
+    .Fitness-Image{
+        width: 400px;
+    }
+    
+    .ImageWithPlay{
+    
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-right: 35px;
+    
+    }
+    
+    .Play-Image{
+        position: absolute;
+        background: transparent;
+    }
+    
+    .Fitness-Title{
+        margin-top: 0;
+        font-family: 'Titillium Web', sans-serif;
+        font-weight: bold;
+        font-size: 40px;
+        height: 15px;
+    }
+    
+    .Fitness-Description{
+        margin-top: 15px;
+        font-family: 'Titillium Web', sans-serif;
+        font-weight: bold;
+        font-size: 23px;
+        width: 100%;
+        white-space: pre-line;
+    }
+    .Fitness-Card{
+        padding: 0 1rem;
+        width: 100%;
+    }
+    
+}

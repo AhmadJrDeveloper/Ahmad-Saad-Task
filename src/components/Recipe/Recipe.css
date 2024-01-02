@@ -1,0 +1,26 @@
+.Recipe-Container{
+    padding: 0 1rem;
+}
+
+.Recipe-Header{
+    
+    padding-left: 5px;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: bold;
+    border-left: 3px solid #D5DD5A;
+}
+
+.Recipes-Flex{
+    padding: 0 ;
+    width: 86.5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+@media screen and (max-width: 768px) {
+    .Recipes-Flex{
+        flex-direction: column;
+        width: 100%;
+    }
+}
